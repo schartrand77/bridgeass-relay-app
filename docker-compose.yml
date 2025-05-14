@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  relay-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - HOME_ASSISTANT_URL=http://192.xxx.xxx:8123
+      - HOME_ASSISTANT_TOKEN=yourTOKEN
+    volumes:
+      - ./relay_app:/app
