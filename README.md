@@ -31,8 +31,8 @@ Before deploying, make sure you have:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-repo/relay-app.git
-cd relay-app
+git clone https://github.com/schartrand77/bridgeass.git
+cd bridgeass
 ```
 
 2. **Create `.env` File**
